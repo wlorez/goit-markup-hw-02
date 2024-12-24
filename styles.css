@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.main-page {
+  position: relative;
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 72px;
+  background-color: #e7e9fc;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #4d5ae5;
+  font-family: "Raleway";
+}
+
+.logo-color {
+  color: #2e2f42;
+}
+
+ul {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+ul li a {
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.link :hover {
+  color: #4d5ae5;
+}
+
+.mail {
+  left: 60%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #2e2f42;
+  font-style: normal;
+}
+.mail:hover {
+  color: #4d5ae5;
+}
+
+.tel {
+  left: 75%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #2e2f42;
+  font-style: normal;
+}
+.tel:hover {
+  color: #4d5ae5;
+}
+
+.ana-baslik {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  background-color: #2e2f42;
+}
+
+.baslik h1 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  font-size: 56px;
+}
+.btn {
+  height: 56px;
+  top: 428px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  border-radius: 4px 0px 0px 0px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background-color: #4d5ae5;
+  gap: 10px;
+  border-bottom: 16px;
+  position: absolute;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #404bbf;
+}
+
+.item2 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  left: 6%;
+  color: #f4f4fd;
+}
+
+.item2 div {
+  display: inline-block;
+  width: 22%;
+  margin: 1%;
+  text-align: left;
+}
+
+.item2 h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 1%;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
+.item2 p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  color: #434455;
+}
+
+/*our bölümü*/
+
+.item3 {
+  position: relative;
+  height: 732px;
+  margin-top: 5%;
+  background-color: #f4f4fd;
+}
+.item3 h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  position: absolute;
+  top: 32%;
+  left: 8%;
+}
+.content div {
+  display: inline-block;
+  margin-right: 24px;
+  text-align: center;
+  width: 264px;
+  height: 380px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+.content div p {
+  margin-top: 5px;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.content div h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 32px;
+}
+
+.item4 {
+  position: relative;
+  height: 1000px;
+  margin-top: 2%;
+  left: 4%;
+}
+.item4 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+  position: absolute;
+  width: 234px;
+  height: 40px;
+  top: 3%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+.content2 {
+  position: absolute;
+  top: 10%;
+}
+.content2 div {
+  color: #434455;
+  display: inline-block;
+  margin: 24px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 360px;
+  height: 420px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+.content2 div h3 {
+  margin-top: 32px;
+}
+.content2 div p {
+  margin-top: 5px;
+}
+
+footer {
+  position: relative;
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  margin-top: 5%;
+}
+footer a {
+  position: absolute;
+  color: #4d5ae5;
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  top: 38%;
+  left: 10%;
+}
+.logo-color-two {
+  color: #f4f4fd;
+}
+
+footer p {
+  position: absolute;
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 264px;
+  height: 72px;
+  top: 50%;
+  left: 10%;
+}
